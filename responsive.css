@@ -1,0 +1,270 @@
+/* Start Mobile Responsive Style */
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    header {
+        width: 100%;
+        height: 80px;
+        padding: 0 35px;
+        justify-content: space-between;
+    }
+    
+    header nav {
+        display: none;
+    }
+
+    header .navbar {
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+
+    header .logo {
+        width: 85px;
+    }
+
+    main .top-page .top-left {
+        display: none;
+    }
+
+    main .top-page .top-right {
+        width: 100%;
+        padding: 30px 20px;
+        height: auto;
+    }
+
+    main .top-page .top-right form {
+        display: none;
+    }
+
+    main .top-page .top-right button {
+        font-size: 14px;
+    }
+
+    main .application {
+        margin: 55px 0;
+    }
+
+    main .application ul li {
+        margin: 10px 0;
+    }
+
+    main .service {
+        padding: 0 30px;
+    }
+
+    main .service h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    main .service ul {
+        margin-top: 30px;
+        width: 100%;
+        align-items: start;
+    }
+
+    main .service ul li {
+        width: 26%;
+        margin: 30px 0px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    main .service ul li a {
+        flex-direction: column;
+    }
+
+    main .service ul li img {
+        margin: 0;
+        width: 50px;
+        height: 50px;
+    }
+    
+    main .service ul li p {
+        display: none;
+    }
+
+    main .service ul li h3 {
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    main .banner {
+        margin: 35px 0 50px;
+    }
+
+    main .banner a {
+        width: 90%;
+    }
+
+    main .about-snapp {
+        flex-direction: column;
+    }
+
+    main .about-snapp .about-left {
+        width: 100%;
+        height: auto;
+    }
+
+    main .about-snapp .about-right {
+        width: 100%;
+        margin: 0;
+        padding: 30px 15px;
+    }
+
+    main .feature {
+        margin-top: 0px;
+    }
+
+    main .feature ul li {
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    main .driver-signup .videobox {
+        width: 80%;
+    }
+
+    main .driver-signup .videobox button {
+        margin-bottom: 25px;
+    }
+
+    main .driver-signup .driver-feature {
+        width: 80%;
+        margin-top: 35px;
+    }
+
+    main .driver-signup .driver-feature ul li {
+        width: 100%;
+    }
+
+    main .driver-signup .driver-feature ul li {
+        height: auto;
+    }
+
+    main .driver-signup .driver-feature ul li img {
+        width: 85px;
+    }
+
+    footer .menu ul li {
+        padding: 7px 20px;
+    }
+}
+
+/* End Mobile Responsive Style */
+
+
+/* Start Tablet Responsive Style */
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    main .application ul {
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    main .application ul li {
+        margin: 15px 0;
+    }
+
+    main .service ul {
+        width: 90%;
+    }
+
+    main .about-snapp .about-left {
+        height: 350px;
+    }
+
+    main .feature ul {
+        width: 90%;
+        justify-content: space-around;
+    }
+
+    main .feature ul li { 
+        width: 45%;
+    }
+
+    main .driver-signup .videobox {
+        text-align: center;
+    }
+}
+
+/* End Tablet Responsive Style */
+
+/* Start Laptop Responsive Style */
+
+@media screen and (min-width:769px) and (max-width:1440px) {
+    header {
+        padding: 0 80px;
+    }
+
+    main .top-page .top-right { 
+        padding: 25px 40px;
+        justify-content: center;
+    }
+
+    main .top-page .top-right h1 {
+        font-size: 34px;
+    }
+
+    main .top-page .top-right p {
+        font-size: 18px;
+    }
+
+    main .top-page .top-right .send-app-link {
+        margin: 10px 0 30px;
+    }
+
+    main .application {
+        margin: 40px 0;
+    }
+
+    main .application ul {
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    main .application ul li {
+        margin: 15px 0;
+    }
+
+    main .service {
+        padding: 30px 0;
+    }
+
+    main .service ul li .service-title h3 {
+        font-size: 17px;
+        margin-bottom: 4px;
+    }
+
+    main .service ul li .service-title p {
+        font-size: 14px;
+    }
+
+    main .banner a {
+        width: 90%;
+    }
+
+    main .feature ul {
+        width: 100%;
+    }
+
+    main .feature ul li {
+        width: 20%;
+        margin: 0 40px;
+    }
+
+    main .driver-signup .videobox {
+        width: 80%;
+        text-align: center;
+    }
+
+    main .driver-signup .driver-feature {
+        width: 90%;
+    }
+
+    footer .menu ul li {
+        padding: 10px 15px;
+    }
+}
+
+/* End Laptop Responsive Style */

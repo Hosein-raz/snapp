@@ -1,0 +1,368 @@
+/* Start Mobile Responsive Style */
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    header {
+        height: 65px;
+        padding: 0;
+        justify-content: space-between;
+        padding: 0 35px;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    main .page-top {
+        margin: 0;
+    }
+
+    main .page-top .page-right {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    main .page-top .page-right span {
+        margin: 15px 0 35px;
+    }
+
+    main .page-top .page-right form input[type="tel"] {
+        margin-bottom: 15px;
+    }
+
+    main .page-top .page-left {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    main .page-top .page-left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    main .credential {
+        margin: 70px 0 60px;
+        padding: 0 20px;
+    }
+
+    main .credential h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    main .credential h2, main .credential p {
+        text-align: center;
+    }
+
+    main .credential p {
+        font-size: 16px;
+    }
+
+    main .credential .detail {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    main .credential .detail .boxicon li {
+        margin: 0 10px;
+    }
+
+    main .credential .detail .boxicon li a img {
+        width: 80%;
+    }
+
+    main .credential .detail .boxicon li a span {
+        font-size: 14px;
+    }
+
+    main .credential .detail .boxicon li:active::before, main .credential .detail .boxicon .active::before {
+        width: 30px;
+    }
+
+    main .credential .detail .contentbox {
+        padding: 25px;
+    }
+
+    main .credential .detail .contentbox h3 {
+        font-size: 22px;
+    }
+
+    main .credential .detail .contentbox ul li {
+        font-size: 15px;
+    }
+
+    main .calcu {
+        flex-direction: column-reverse;
+        padding-top: 30px;
+    }
+
+    main .calcu .calculeft {
+        width: 80%;
+        margin: 0;
+    }
+
+    main .calcu .calculeft .calculator {
+        margin-top: 0px;
+    }
+
+    main .calcu .calculeft .calculator .daywork ul li {
+        margin: 10px 0;
+    }
+
+    main .calcu .calcuright {
+        width: 100%;
+        margin: 0 0 30px 0;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    main .privilege {
+        margin: 50px 0;
+        padding: 0 20px;
+    }
+
+    main .privilege h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    main .privilege p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    main .privilege .infobox {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    main .privilege .infobox ul {
+        flex-direction: column;
+    }
+
+    main .privilege .infobox ul li {
+        margin: 10px 0;
+    }
+
+    main .privilege .infobox ul li .title h3 {
+        font-size: 20px;
+    }
+
+    main .faq h2 {
+        margin-bottom: 15px;
+    }
+
+    main .faq .faq-container {
+        width: 85%;
+    }
+
+    main .faq .faq-container details {
+        padding: 20px;
+    }
+
+    main .faq .faq-container details summary {
+        font-size: 16px;
+    }
+
+    main .drivers-comments {
+        margin: 50px 0;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    main .drivers-comments h2 {
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    main .drivers-comments .cm-container {
+        width: 100%;
+    }
+
+    main .drivers-comments .cm-container ul li {
+        width: 100%;
+        margin: 15px 0px;
+        height: auto;
+    }
+
+    footer {
+        padding: 40px 0 30px;
+    }
+
+    footer .footer-container {
+        width: 85%;
+        flex-direction: column-reverse;
+    }
+
+    footer .footer-container .footright {
+        margin-bottom: 40px;
+    }
+
+    footer .footer-container .footleft {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .footer-container .footleft ul {
+        justify-content: center;
+    }
+
+    footer .copyright {
+        width: 85%;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    footer .copyright p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+}
+
+/* End Mobile Responsive Style */
+
+/* Start Tablet Responsive Style */
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    main .page-top .page-left {
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    main .credential h2 {
+        font-size: 32px;
+    }
+
+    main .credential p {
+        font-size: 18px;
+    }
+
+    main .credential .detail .boxicon li a span {
+        font-size: 20px;
+    }
+
+    main .credential .detail .contentbox h3 {
+        font-size: 26px;
+    }
+
+    main .credential .detail .contentbox ul li {
+        font-size: 18px;
+    }
+
+    main .calcu {
+        flex-direction: row;
+    }
+
+    main .calcu .calculeft {
+        width: 50%;
+    }
+
+    main .calcu .calcuright {
+        width: 40%;
+    }
+
+    main .privilege h2 {
+        font-size: 34px;
+    }
+
+    main .privilege p {
+        font-size: 22px;
+    }
+
+    main .privilege .infobox ul li .title h3 {
+        font-size: 28px;
+    }
+
+    main .faq .faq-container details summary {
+        font-size: 22px;
+    }
+
+    main .drivers-comments .cm-container ul li .information {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+/* End Tablet Responsive Style */
+
+/* Start Laptop Responsive Style */
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    header {
+        padding: 0 30px;
+    }
+    
+    main .page-top {
+        justify-content: space-around;
+    }
+
+    main .page-top .page-right, main .page-top .page-left {
+        width: 40%;
+    }
+
+    main .page-top .page-left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    main .page-top .page-right form {
+        width: 100%;
+    }
+
+    main .credential {
+        margin: 60px 0 120px;
+    }
+
+    main .credential .detail {
+        width: 70%;
+    }
+
+    main .calcu .calculeft {
+        margin: 0;
+    }
+
+    main .calcu .calculeft {
+        width: 30%;
+    }
+
+    main .privilege .infobox {
+        width: 90%;
+    }
+
+    main .privilege .infobox ul li {
+        width: 30%;
+        height: auto;
+        margin: 15px 10px;
+    }
+
+    main .faq .faq-container {
+        width: 70%;
+    }
+
+    main .drivers-comments {
+        margin: 60px 0 60px;
+    }
+
+    main .drivers-comments .cm-container {
+        width: 80%;
+    }
+
+    main .drivers-comments .cm-container ul li {
+        height: auto;
+    }
+
+    footer .footer-container {
+        width: 80%;
+    }
+
+    footer .copyright {
+        width: 80%;
+    }
+}
