@@ -158,6 +158,7 @@ main .service-category h2 {
 
 main .service-category .category-box {
     width: 60%;
+    margin-top: 15px;
 }
 
 main .service-category .category-box ul {
@@ -195,4 +196,77 @@ main .service-category .category-box ul li a .category-icon img {
 
 main .service-category .category-box ul li a h3 {
     font-size: 18px;
+}
+
+main .other-services {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+main .other-services h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+main .other-services .other-services-icons {
+    width: 70%;
+}
+
+main .other-services .other-services-icons ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .other-services .other-services-icons ul a  {
+    width: 23%;
+}
+
+main .other-services .other-services-icons ul a li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .other-services .other-services-icons ul a li .osi {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+main .other-services .other-services-icons ul a li .osi img {
+    width: 100%;
+    height: 100%;
+}
+
+main .other-services .other-services-icons ul a li .content-box h4 {
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+
+main .other-services .other-services-icons ul a li .content-box p {
+    font-size: 15px;
+}
+
+main .slider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0 50px;
+}
+
+main .slider .slider-image {
+    width: 60%;
+    border-radius: 10px;
+}
+
+main .slider img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
