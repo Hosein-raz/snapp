@@ -1,0 +1,35 @@
+<svg width="180" height="180" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Main Building -->
+  <rect x="14" y="10" width="24" height="40" rx="4"
+        stroke="#0F1A36" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Side Building -->
+  <rect x="40" y="18" width="12" height="32" rx="4"
+        stroke="#009BF0" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Main Windows -->
+  <rect x="18" y="14" width="6" height="6" rx="1.5"
+        stroke="#0F1A36" stroke-width="2"/>
+  <rect x="28" y="14" width="6" height="6" rx="1.5"
+        stroke="#0F1A36" stroke-width="2"/>
+
+  <rect x="18" y="22" width="6" height="6" rx="1.5"
+        stroke="#0F1A36" stroke-width="2"/>
+  <rect x="28" y="22" width="6" height="6" rx="1.5"
+        stroke="#0F1A36" stroke-width="2"/>
+
+  <!-- Door -->
+  <rect x="22.5" y="31" width="7" height="12" rx="1.5"
+        stroke="#0F1A36" stroke-width="2"/>
+
+  <!-- Side Building Windows -->
+  <rect x="43" y="23" width="6" height="6" rx="1.5"
+        stroke="#009BF0" stroke-width="2"/>
+  <rect x="43" y="31" width="6" height="6" rx="1.5"
+        stroke="#009BF0" stroke-width="2"/>
+
+  <!-- Ground Line -->
+  <line x1="10" y1="52" x2="56" y2="52"
+        stroke="#0F1A36" stroke-width="2" stroke-linecap="round"/>
+</svg>
