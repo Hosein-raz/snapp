@@ -657,3 +657,50 @@ main .about .about-content button {
 main .about .about-content button:hover {
     background-color: #eeeeef;
 }
+
+footer {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-container {
+    width: 90%;
+}
+
+footer .footer-container .footer-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .footer-container .footer-menu ul li {
+    padding: 0 15px;
+    margin: 8px 0;
+}
+
+footer .footer-container .footer-menu ul li a {
+    color: var(--text-color);
+}
+
+footer .footer-container .social {
+    margin: 20px;
+}
+
+footer .footer-container .social ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-container .social ul li {
+    padding: 0 10px;
+}
+
+footer .footer-container .social li a img {
+    width: 30px;
+    height: 30px;
+}
