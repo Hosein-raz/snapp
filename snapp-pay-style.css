@@ -559,3 +559,101 @@ main .information .info-container .info-right .info-img img {
 main .information .info-container .info-right .info-img .info-content {
     padding: 20px 30px;
 }
+
+main .faq {
+    width: 100%;
+    background-color: var(--silver);
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+main .faq h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+main .faq .faq-container {
+    width: 80%;
+}
+
+main .faq .faq-container details {
+    width: 100%;
+    background-color: var(--white-color);
+    padding: 25px 30px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+main .faq .faq-container details summary {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
+main .faq .faq-container details p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 40px;
+}
+
+main .about {
+    width: 100%;
+    background-image: url(assets/images/bg/8.jpg);
+    background-position: center;
+    background-size: cover;
+    transform: rotateY(180deg);
+    padding: 50px 200px;
+    position: relative;
+}
+
+main .about::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.2);
+}
+
+main .about .about-content {
+    transform: rotateY(-180deg);
+}
+
+main .about .about-content img {
+    width: 62px;
+    height: 62px;
+}
+
+main .about .about-content h3 {
+    color: var(--white-color);
+    margin: 7px 0;
+    text-shadow: 0 1px 6px #333;
+}
+
+main .about .about-content p {
+    font-size: 18px;
+    width: 40%;
+    color: var(--white-color);
+    line-height: 1.5;
+    text-shadow: 1px 1px 5px #121212;
+}
+
+main .about .about-content button {
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: var(--white-color);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+main .about .about-content button:hover {
+    background-color: #eeeeef;
+}
