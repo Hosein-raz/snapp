@@ -348,3 +348,83 @@ main .benefits .benefit-content ul li .benefit-icons img {
 main .benefits .benefit-content ul li p {
     margin-top: 10px;
 }
+
+main .purchasing-steps {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+}
+
+main .purchasing-steps .steps-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .purchasing-steps .steps-container .steps-list {
+    width: 22%;
+    margin-right: 50px;
+}
+
+main .purchasing-steps .steps-container .steps-list ul a {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 16px;
+}
+
+main .purchasing-steps .steps-container .steps-list ul a:active, main .purchasing-steps .steps-container .steps-list ul .active  {
+    text-align: center;
+    color: var(--white-color);
+    font-size: 16px;
+}
+
+main .purchasing-steps .steps-container .steps-list ul a li {
+    background-color: var(--silver);
+    width: 100%;
+    padding: 10px 0;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+main .purchasing-steps .steps-container .steps-list ul a:active li, main .purchasing-steps .steps-container .steps-list ul .active li {
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 10px 0;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+main .purchasing-steps .steps-container .steps-list ul a:active li:hover, main .purchasing-steps .steps-container .steps-list ul .active li:hover {
+    background-color: #1497fa;
+}
+
+main .purchasing-steps .steps-container .steps-content {
+    width: 55%;
+    margin-right: 35px;
+}
+
+main .purchasing-steps .steps-container .steps-content h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+main .purchasing-steps .steps-container .steps-content p {
+    font-size: 18px;
+}
+
+main .purchasing-steps .steps-container .steps-img {
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .purchasing-steps .steps-container .steps-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
