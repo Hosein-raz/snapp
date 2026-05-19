@@ -75,6 +75,10 @@ header nav ul li a {
     color: var(--text-color);
 }
 
+.navbar {
+    display: none;
+}
+
 /* End Header Style */
 
 /* Start Main Style */
@@ -220,6 +224,7 @@ main .other-services .other-services-icons ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 main .other-services .other-services-icons ul a  {
