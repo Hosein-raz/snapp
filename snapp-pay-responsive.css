@@ -1,0 +1,365 @@
+/* Start Mobile Responsive Style */
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    header {
+        height: 65px;
+        padding: 0;
+        justify-content: space-between;
+        padding: 0 35px;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header .navbar {
+        display: block;
+    }
+
+    main .hero .banner {
+        display: none;
+    }
+
+    main .hero .hero-content {
+        width: 100%;
+        max-height: max-content;
+        padding: 20px;
+    }
+
+    main .hero .hero-content button {
+        width: 100%;
+    }
+
+    main .service-category h2 {
+        text-align: center;
+    }
+
+    main .service-category .category-box {
+        width: 90%;
+    }
+
+    main .service-category .category-box ul li {
+        width: 47%;
+        padding: 15px 10px;
+        text-align: center;
+    }
+
+    main .other-services h2 {
+        text-align: center;
+    }
+
+    main .other-services .other-services-icons {
+        width: 90%;
+    }
+
+    main .other-services .other-services-icons ul {
+        justify-content: center;
+    }
+
+    main .other-services .other-services-icons ul a {
+        width: 33%;
+    }
+
+    main .other-services .other-services-icons ul a li {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    main .other-services .other-services-icons ul a li .osi {
+        margin-right: 0;
+    }
+
+    main .other-services .other-services-icons ul a li .content-box {
+        text-align: center;
+    }
+
+    main .other-services .other-services-icons ul a li .content-box p {
+        display: none;
+    }
+
+    main .slider {
+        margin: 0 0 50px 0;
+    }
+
+    main .slider .slider-image {
+        width: 90%;
+    }
+
+    main .benefits {
+        margin-bottom: 30px;
+    }
+    
+    main .benefits .benefit-top {
+        flex-direction: column;
+        height: auto;
+    }
+
+    main .benefits .benefit-top .benefit-bg {
+        width: 100%;
+    }
+
+    main .benefits .benefit-top .benefit-title {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    main .benefits .benefit-content {
+        width: 90%;
+        margin: 0;
+    }
+
+    main .benefits .benefit-content ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .benefits .benefit-content ul li {
+        width: 90%;
+        margin-bottom: 25px;
+    }
+
+    main .purchasing-steps {
+        margin: 0 0 40px 0;
+    }
+
+    main .purchasing-steps .steps-container {
+        width: 90%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    main .purchasing-steps .steps-container .steps-list {
+        width: 100%;
+        margin: 0;
+    }
+
+    main .purchasing-steps .steps-container .steps-list ul .active li, main .purchasing-steps .steps-container .steps-list ul a li {
+        margin: 20px 0;
+    }
+
+    main .purchasing-steps .steps-container .steps-content {
+        width: 90%;
+        margin: 20px 0 30px 0;
+    }
+
+    main .purchasing-steps .steps-container .steps-img {
+        width: 90%;
+    }
+
+    main .stores h2 {
+        text-align: center;
+    }
+
+    main .stores .in-person-stores {
+        width: 90%;
+    }
+
+    main .stores .in-person-stores ul li {
+        width: 50%;
+    }
+
+    main .video {
+        padding: 35px 0;
+    }
+
+    main .video .video-box {
+        width: 90%;
+    }
+
+    main .information .info-container {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    main .information .info-container .info-left {
+        width: 100%;
+    }
+
+    main .information .info-container .info-left .infobox {
+        margin-bottom: 25px;
+    }
+
+    main .information .info-container .info-right {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    main .faq {
+        margin: 50px 0;
+    }
+
+    main .faq .faq-container details {
+        padding: 20px;
+    }
+
+    main .faq .faq-container details summary {
+        font-size: 16px;
+    }
+
+    main .faq .faq-container details p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    main .about {
+        padding: 40px 30px;
+        background: #1097fa;
+        transform: rotateY(0);
+    }
+
+    main .about .about-content {
+        transform: rotateY(0);
+    }
+
+    main .about .about-content p {
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+}
+
+/* End Mobile Responsive Style */
+
+
+/* Start Tablet Responsive Style */
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    main .benefits .benefit-top .benefit-bg {
+        height: 350px;
+    }
+
+    main .benefits .benefit-top .benefit-title {
+        padding: 35px 20px 20px;
+    }
+
+    main .benefits .benefit-content {
+        margin-top: 30px;
+    }
+
+    main .benefits .benefit-content ul {
+        flex-direction: row;
+        align-items: start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    main .benefits .benefit-content ul li {
+        width: 45%;
+        margin-bottom: 50px;
+    }
+
+    main .purchasing-steps .steps-container .steps-list ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    main .purchasing-steps .steps-container .steps-list ul .active, main .purchasing-steps .steps-container .steps-list ul a {
+        width: 48%;
+    }
+
+    main .purchasing-steps .steps-container .steps-list ul .active li, main .purchasing-steps .steps-container .steps-list ul a li {
+        margin: 10px 0;
+    }
+
+    main .purchasing-steps .steps-container .steps-content {
+        margin: 40px 0;
+    }
+
+    main .purchasing-steps .steps-container .steps-img {
+        width: 50%;
+    }
+
+    main .faq .faq-container {
+        width: 90%;
+    }
+}
+
+/* End Tablet Responsive Style */
+
+/* Start Laptop Responsive Style */
+
+@media screen and (min-width:769px) and (max-width:1440px) {
+    header {
+        padding: 0 20px;
+    }
+
+    main .hero .hero-content {
+        padding: 20px 50px;
+    }
+
+    main .hero .hero-content h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    main .hero .hero-content span {
+        font-size: 20px;
+    }
+
+    main .hero .hero-content ul li {
+        font-size: 18px;
+    }
+
+    main .hero .hero-content button {
+        margin-top: 20px;
+    }
+
+    main .service-category .category-box {
+        width: 90%;
+    }
+
+    main .other-services .other-services-icons {
+        width: 80%;
+    }
+
+    main .other-services .other-services-icons ul {
+        justify-content: center;
+    }
+
+    main .other-services .other-services-icons ul a {
+        width: 33%;
+        margin-bottom: 25px;
+    }
+
+    main .slider {
+        margin: 50px 0;
+    }
+
+    main .slider .slider-image {
+        width: 90%;
+    }
+
+    main .purchasing-steps .steps-container {
+        width: 90%;
+    }
+
+    main .stores .in-person-stores {
+        width: 90%;
+    }
+
+    main .video .video-box {
+        width: 90%;
+    }
+
+    main .information .info-container {
+        width: 90%;
+    }
+
+    main .information .info-container .info-left .infobox {
+        margin-bottom: 20px;
+    }
+
+    main .about {
+        padding: 50px;
+    }
+}
+
+/* End Laptop Responsive Style */
