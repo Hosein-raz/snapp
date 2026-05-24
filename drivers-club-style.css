@@ -275,6 +275,8 @@ main .dc-discounts .dcd-container .dcd-city ul li:last-child a {
     color: var(--white-color);
 }
 
+/* Posts Box */
+
 main .posts-container {
     display: flex;
     justify-content: space-between;
@@ -367,6 +369,8 @@ main .posts-dots span:active, main .posts-dots .active {
     opacity: 1;
 }
 
+/* Posts Box */
+
 main .snapp-news {
     width: 100%;
     padding: 30px 0 50px;
@@ -386,11 +390,56 @@ main .snapp-news .news-container .news-head {
     margin-bottom: 20px;
 }
 
-main .snapp-news .news-container .news-head a {
+main .snapp-news .news-container .news-head a, main .snapp-blog .blog-container .blog-head a {
     color: var(--primary-color);
     transition: 0.3s;
 }
 
-main .snapp-news .news-container .news-head a:hover {
+main .snapp-news .news-container .news-head a:hover, main .snapp-blog .blog-container .blog-head a:hover {
     color: var(--second-primary);
+}
+
+main .banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0;
+}
+
+main .banner .banner-container {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .banner .banner-container a {
+    width: 50%;
+    margin: 0 8px;
+}
+
+main .banner .banner-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+main .snapp-blog {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+
+main .snapp-blog .blog-container {
+    width: 75%;
+}
+
+main .snapp-blog .blog-container .blog-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
