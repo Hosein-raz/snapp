@@ -79,6 +79,10 @@ header nav ul li a {
     color: var(--text-color);
 }
 
+header .navbar {
+    display: none;
+}
+
 /* End Header Style */
 
 /* Start Main Style */
